@@ -1,0 +1,20 @@
+[package]
+name = "kzg_implement"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+halo2_proofs = {git="https://github.com/privacy-scaling-explorations/halo2", tag="v2023_04_20"}
+backtrace = { version = "0.3", optional = true }
+rayon = "1.5.1"
+ff = "0.13"
+group = "0.13"
+halo2curves = { version = "0.1.0" }
+rand_core = { version = "0.6", default-features = false }
+tracing = "0.1"
+blake2b_simd = "1"
+sha3 = "0.9.1"
+rand_chacha = "0.3"
+rs_merkle = "1.4.1"
